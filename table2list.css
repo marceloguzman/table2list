@@ -1,0 +1,34 @@
+/* ****************************************
+   
+   table2list utility
+   Author: Marcelo Guzman (marcelo@marceloguzman.com)
+   https://github.com/marceloguzman/table2list
+
+   **************************************** */
+   
+   
+.table2list{
+display: table;
+}
+
+.table2list_result{
+display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+	.table2list{
+	display: none;
+	}
+
+	.table2list_result{
+	display: block;
+	}
+
+}
+
+
+
+
